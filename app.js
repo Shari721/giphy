@@ -54,7 +54,7 @@ $("#gifsHere").empty();
         for (var j = 0; j < response.data.length; j++) {
          var results = response.data;
         var rating = results[j].rating;
-          var sportDiv = $("<div>");
+          var sportDiv = $("<div class='item'>");
         	var img = $("<img>");
 
 var p = $("<p>").text("Rating: " + rating);

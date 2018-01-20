@@ -1,0 +1,8 @@
+body {
+	background-color: #696969;
+	color: #F08080;
+}
+
+.item {
+	display: inline-grid;
+}
